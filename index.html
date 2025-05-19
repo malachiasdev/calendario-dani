@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lembrete para o meu amor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lembrete da minha vidinha</h1>
+
+    <form id="form">
+      <p>Escolha os horários para lembrar de tomar o remédio:</p>
+      <div class="dias">
+        <label>Segunda-feira: <input type="time" name="segunda"></label>
+        <label>Terça-feira: <input type="time" name="terca"></label>
+        <label>Quarta-feira: <input type="time" name="quarta"></label>
+        <label>Quinta-feira: <input type="time" name="quinta"></label>
+        <label>Sexta-feira: <input type="time" name="sexta"></label>
+        <label>Sábado: <input type="time" name="sabado"></label>
+        <label>Domingo: <input type="time" name="domingo"></label>
+      </div>
+      <button type="submit">Salvar lembretes</button>
+    </form>
+
+    <div id="mensagem" class="mensagem"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
